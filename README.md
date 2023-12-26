@@ -6,7 +6,7 @@
   NutriTrack - A landing page template 🚀
 </h1>
 
-NutriTrack is a customizable NextJS and TailwindCSS landing page template that offers personalized styling and easy customization. Tailored to provide a minimal design, it allows you to effortlessly create a site that suits your requirements. You can easily make use of the components and customize the code to mix and match to suit your needs.
+NutriTrack is a user-friendly landing page template with NextJS and TailwindCSS. It's easy to customize, allowing you to create a minimalistic site that fits your style using its versatile components.
 
 <hr>
 
