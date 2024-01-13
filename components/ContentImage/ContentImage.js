@@ -6,19 +6,19 @@ import { v4 as uuid } from "uuid";
 const ContentImageData = [
     {
         id: uuid(),
-        title: "Effortless Planning",
+        title: "Gamyba iš namų",
         content:
-            "Say goodbye to meal planning stress! With NutriTrack, planning your meals becomes a breeze. Our user-friendly Notion template lets you create customized daily or weekly meal plans effortlessly. Enjoy a balanced and nutritious diet without the hassle.",
+            "Norint užsidirbti iš savo kulinarinių sugebėjimų nebereikia investuoti į specialiai įrengtą virtuvę, reiškia galėsite įgyvendinti daugelio svajonę - dirbti iš namų. VMVT reikalavimams nenusižengsite kiekvieną dieną parduodami iki 20 porcijų patiekalų, 10kg pusgaminių ir ne daugiau 100 vieno kąsnio užkandžių.",
         align: "right",
-        image: "/features1.png"
+        image: "/naminiai-lietiniai-blynai-su-mesa.webp"
     },
     {
         id: uuid(),
-        title: "Shopping List",
+        title: "Kokybė paprastume",
         content:
-            "We've got your grocery shopping covered! NutriTrack includes a handy shopping list feature. As you plan your meals, the template automatically generates a comprehensive shopping list. No more forgotten items or aimless wandering in the supermarket. Shopping for healthy ingredients has never been easier!",
+            `Naminį maistą mylim mes visi. Jei žinote gerą receptą ir norite su juo užsidirbti, jums tereikia nuotoliniu būdu išklausyti paskaitą apie higieną, gauti medicininę knygelę leidžiančią gaminti maistą ir prisijungti prie mūsų.`,
         align: "left",
-        image: "/features2.png"
+        image: "/naminiai-rauginti-kopustai.webp"
     }
 ];
 
@@ -55,7 +55,7 @@ export const ContentImage = () => {
                         <h3 className="mb-6 h4 md:h3 font-semibold text-black">
                             {item.title}
                         </h3>
-                        <p>{item.content}</p>
+                        <p dangerouslySetInnerHTML={{ __html: item.content }} />
                         <ul className="process-item--list space-y-3">
                             {item.listItems?.length &&
                                 item.listItems.map((listItem) => (

@@ -1,7 +1,7 @@
 {
-    "name": "nutritrack",
+    "name": "babuska",
     "version": "1.1.0",
-    "description": "NutriTrack - A customizable landing page theme built with AstroJS and TailwindCSS, specifically designed for Notion creators.",
+    "description": "Babuska landing page",
     "main": "index.js",
     "private": true,
     "repository": {
@@ -42,11 +42,12 @@
         "next-sitemap": "^3.1.44",
         "numeral": "^2.0.6",
         "openai": "^3.2.1",
+        "postmark": "^4.0.2",
         "react": "18.2.0",
         "react-dom": "18.2.0",
+        "react-hot-toast": "^2.4.0",
         "resize-observer-polyfill": "^1.5.1",
-        "uuid": "^8.3.2",
-        "react-hot-toast": "^2.4.0"
+        "uuid": "^8.3.2"
     },
     "devDependencies": {
         "autoprefixer": "^10.4.13",
