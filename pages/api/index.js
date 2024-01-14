@@ -24,7 +24,7 @@ try {
         headers: {
           'Content-Type': 'application/json',
           'Accept': 'application/json',
-          'X-Postmark-Server-Token': process.env.POSTMARK_SERVER_TOKEN,
+          'X-Postmark-Server-Token': '511ed4b1-0c43-46c5-b256-6b50cd14fe59',
         },
       });
 

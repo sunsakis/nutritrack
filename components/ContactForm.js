@@ -10,15 +10,9 @@ export default function ContactUs() {
   const [dishes, setDishes] = useState('');
   const [foods, setProducts] = useState('');
   const [snacks, setSnacks] = useState('');
-  //   Form validation state
-  const [errors, setErrors] = useState({});
 
   //   Setting button text on form submission
   const [buttonText, setButtonText] = useState("Dalintis");
-
-  // Setting success or failure messages states
-  const [showSuccessMessage, setShowSuccessMessage] = useState(false);
-  const [showFailureMessage, setShowFailureMessage] = useState(false);
 
   const submitData = async (event) => {
     event.preventDefault()
@@ -32,6 +26,7 @@ export default function ContactUs() {
         },
     })
     const info = await response.json()
+    setButtonText("Išsiųsta!")
     console.log(info)
   }
 
@@ -71,90 +66,3 @@ export default function ContactUs() {
     </form>
   )
 }
-
-// EXTRA CODE
-
-//         const client = new ServerClient(process.env.POSTMARK_SERVER_TOKEN);
-//         await client.sendEmail({
-//             "From": "zenona@abuska.lt",
-//             "To": "zenona@babuska.lt",
-//             "Subject": "Labuka",
-//             "TextBody": "a veik?"
-//         });
-//         console.log('Email sent');
-//     } catch (error) {
-//         console.error('Error:', error);
-//     }
-
-      
-
-//     //   const { error } = await res.json();
-//     //   if (error) {
-//     //     console.log(error);
-//     //     setShowSuccessMessage(false);
-//     //     setShowFailureMessage(true);
-//     //     setButtonText("Siųsti");
-//     //     return;
-//     //   }
-//     //   setShowSuccessMessage(true);
-//     //   setShowFailureMessage(false);
-//     //   setButtonText("Siųsti");
-//     //}
-
-//   };
-
-
-//   async function sendEmail() {
-    // const emailData ={
-    //     From: from,
-    //     To: to,
-    //     Subject: subject,
-    //     Name: name,
-    //     Email: email,
-    //     MainDishes: mainDishes,
-    //     Foods: foods,
-    //     Snacks: snacks,
-    // };
-//     try {
-//         await fetch('/api/basic-email', {
-//             method: 'POST',
-//             headers: {
-//                 'Content-Type': 'application/json'
-//             },
-//             body: JSON.stringify({ name })
-//         }
-//         )
-        
-//     } catch (error) {
-//         console.error('Error:', error);
-//     }
-//   }
-
-  // Validation check method
-//   const handleValidation = () => {
-//     let tempErrors = {};
-//     let isValid = true;
-
-//     if (name.length <= 0) {
-//       tempErrors["fullname"] = true;
-//       isValid = false;
-//     }
-//     if (email.length <= 0) {
-//       tempErrors["email"] = true;
-//       isValid = false;
-//     }
-
-//     setErrors({ ...tempErrors });
-//     console.log("errors", errors);
-//     return isValid;
-//   };
-
-  //   Handling form submit
-
-//   const handleSubmit = async (e) => {
-//     // e.preventDefault();
-
-//     //let isValidForm = handleValidation();
-
-//     //if (isValidForm) {
-//     try {
