@@ -13,6 +13,7 @@ export default function ContactUs() {
 
   //   Setting button text on form submission
   const [buttonText, setButtonText] = useState("Dalintis");
+  const [disability, setDisability] = useState();
 
   const submitData = async (event) => {
     event.preventDefault()
@@ -26,7 +27,7 @@ export default function ContactUs() {
         },
     })
     const info = await response.json()
-    setButtonText("Išsiųsta!")
+    setButtonText("Išsiųsta! Dar kartą spausti nebereikia, neužilgo susisieksime")
     console.log(info)
   }
 
