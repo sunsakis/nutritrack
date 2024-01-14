@@ -36,7 +36,7 @@ export const HomeBanner = () => {
                             <Button href="#features">Istorija</Button>
                             <a
                                 role="button"
-                                href="https://github.com/christian-luntok/nutritrack"
+                                href="#form"
                                 className="btn btn--secondary"
                             >
                                 Prisijunk

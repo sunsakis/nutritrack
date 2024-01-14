@@ -33,8 +33,9 @@ export default function ContactUs() {
 
   return (
     <
-        form class="rounded-lg shadow-xl flex flex-col px-8 py-8 mt-10"
+        form class="rounded-lg shadow-xl flex flex-col px-8 py-8 mt-10 p-5"
         onSubmit={submitData}
+        id="form"
     >
       <p class="text-2xl font-bold">Nori pardavinėti maistą iš savo namų?</p>
 

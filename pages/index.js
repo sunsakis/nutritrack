@@ -40,7 +40,7 @@ export default function Home() {
                                     Nuo seno žmonės pirkdavo namuose pagamintą maistą, nes 
                                     taip yra pigiau, skaniau ir sveikiau. Daugelyje pasaulio šalių ši tradicija niekada nenutrūko,
                                     bet ne Lietuvoje, kur po Nepriklausomybės buvo leista prekiauti tik iš specialiai įrengtų virtuvių.
-                                    Tačiau 2019 metais įsigaliojusi <u className="text-blue-500">nauja maisto gamybos tvarka</u> buvo džiaugsminga žinia visiems, 
+                                    Tačiau 2019 metais įsigaliojusi <a href="https://www.manopazyma.lt/namuose-gaminamo-maisto-prekyba-ir-saugumo-reikalavimai"><u className="text-blue-500">nauja maisto gamybos tvarka</u></a> buvo džiaugsminga žinia visiems, 
                                     kurie mėgsta gaminti <i>savo</i> virtuvėje.
                                 </p>
                             </Content>
@@ -59,6 +59,7 @@ export default function Home() {
                             <PageTitle
                                 className="text-center mx-auto"
                                 type="default"
+                                id="form"
                             >
                                 Pralobk iš savo firminių patiekalų
                             </PageTitle>
