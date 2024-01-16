@@ -33,14 +33,14 @@ export default function Home() {
                                 className="text-center mx-auto"
                                 type="default"
                             >
-                                Laikas vėl decentralizuoti maistą.
+                                Iš širdies į burną.
                             </PageTitle>
-                            <Content className="text-center" alignment="center">
+                            <Content className="text-left" alignment="center">
                                 <p>
                                     Nuo seno žmonės pirkdavo namuose pagamintą maistą, nes 
                                     taip yra pigiau, skaniau ir sveikiau. Daugelyje pasaulio šalių ši tradicija niekada nenutrūko,
-                                    bet ne Lietuvoje, kur po Nepriklausomybės buvo leista prekiauti tik iš specialiai įrengtų virtuvių.
-                                    Tačiau 2019 metais įsigaliojusi <a href="https://www.manopazyma.lt/namuose-gaminamo-maisto-prekyba-ir-saugumo-reikalavimai"><u className="text-blue-500">nauja maisto gamybos tvarka</u></a> buvo džiaugsminga žinia visiems, 
+                                    bet ne Lietuvoje, kurioje buvo prekiaujama maistu tik iš specialiai įrengtų virtuvių.
+                                    Pokyčiai maisto gamybos tvarkoje buvo džiugi žinia visiems, 
                                     kurie mėgsta gaminti <i>savo</i> virtuvėje.
                                 </p>
                             </Content>
@@ -65,9 +65,8 @@ export default function Home() {
                             </PageTitle>
                             <Content className="text-center" alignment="center">
                                 <p>
-                                    Renkame norinčius būti pačiais pirmaisiais pardavėjais mūsų platformoje.
-                                    Būti kartu nuo pačių pradžių reikš, kad galėsite užsitikrinti aukštą matomumą.
-                                    Mūsų algoritmas taikys pirmenybę maisto gamintojams, kurių didelė pasiūla ir geri reitingai.
+                                    Kviečiame užsiregistruoti visus, norinčius būti maisto gamintojais.
+                                    Algoritmas taikys pirmenybę tiems, kurių didelė pasiūla ir geri reitingai.
                                 </p>
                             </Content>
                             <ContactForm />

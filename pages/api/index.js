@@ -9,8 +9,8 @@ try {
       const response = await fetch('https://api.postmarkapp.com/email', {
         method: 'POST',
         body: JSON.stringify({
-          "From": "zenona@babuska.lt",
-          "To": "zenona@babuska.lt",
+          "From": "teo@babuska.lt",
+          "To": "teo@babuska.lt",
           "Subject": "We got a new babushka",
           "TextBody": `
             Name: ${req.body.name} 

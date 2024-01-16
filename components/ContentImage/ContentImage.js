@@ -4,7 +4,9 @@ import Image from "next/image";
 import { v4 as uuid } from "uuid";
 
 const ContentImageData = [
+    
     {
+        
         id: uuid(),
         title: "Gamyba iš namų",
         content:
@@ -16,7 +18,7 @@ const ContentImageData = [
         id: uuid(),
         title: "Kokybė paprastume",
         content:
-            `Naminį maistą mylim mes visi. Jei žinote gerą receptą ir norite su juo užsidirbti, jums tereikia nuotoliniu būdu išklausyti paskaitą apie higieną, gauti medicininę knygelę leidžiančią gaminti maistą ir prisijungti prie mūsų.`,
+            `Naminį maistą mylim mes visi. Jei žinote gerą receptą ir norite su juo užsidirbti, jums tereikia nuotoliniu būdu išklausyti paskaitą apie higieną, gauti medicininę knygelę leidžiančią gaminti maistą ir prisijunkite prie mūsų. ↓`,
         align: "left",
         image: "/naminiai-rauginti-kopustai.webp"
     }
