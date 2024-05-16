@@ -27,7 +27,6 @@ try {
       });
 
       const info = await response.json();
-      console.log('ENV' + process.env.POSTMARK_SERVER_TOKEN);
       console.log(info);
       
 
