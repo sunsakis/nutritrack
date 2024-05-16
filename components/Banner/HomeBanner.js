@@ -32,8 +32,6 @@ export const HomeBanner = () => {
                         </p>
                     </Content>
                     <div className="mt-6 mb-16 text-center">
-                        <ButtonGroup alignment="center">
-                            <Button href="#features">Istorija</Button>
                             <a
                                 role="button"
                                 href="#form"
@@ -42,7 +40,6 @@ export const HomeBanner = () => {
                                 Prisijunk
                                 <Icon icon="material-symbols:arrow-forward-rounded" />
                             </a>
-                        </ButtonGroup>
                     </div>
                 </MotionBTTContainer>
                 {/* Appear Fourth */}

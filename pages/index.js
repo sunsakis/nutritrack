@@ -26,9 +26,6 @@ export default function Home() {
                         transition={{ delay: 0.2, duration: 0.5 }}
                     >
                         <SectionContainer id="features" className="features">
-                            <BadgeGroup alignment="center">
-                                <BadgeMessage>Istorija</BadgeMessage>
-                            </BadgeGroup>
                             <PageTitle
                                 className="text-center mx-auto"
                                 type="default"
