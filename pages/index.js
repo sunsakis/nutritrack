@@ -13,7 +13,7 @@ export default function Home() {
     return (
         <Layout className="">
             <SEO
-                title="Babuška - Naminis Maistas Į Namus 🚀"
+                title="Bábuška - Naminis Maistas Į Namus 🚀"
                 description="Šviežutėlis maistas keliaujantis iš širdžių į burnas."
             />
             <div className="main-wrapper bg-[#F3F5F8] relative z-10 pb-20 pt-20 ">
@@ -53,7 +53,7 @@ export default function Home() {
                     >
                         <SectionContainer className="feature-tabs">
                             <BadgeGroup alignment="center">
-                                <BadgeMessage>Prisijunk prie babuškų</BadgeMessage>
+                                <BadgeMessage>Prisijunk prie bábuškų</BadgeMessage>
                                 <BadgeIcon icon="twemoji:waving-hand" />
                             </BadgeGroup>
                             <PageTitle

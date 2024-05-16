@@ -14,7 +14,7 @@ export const HomeBanner = () => {
                 {/* Appear First */}
                 <MotionBTTContainer transition={{ delay: 0.2, duration: 0.5 }}>
                     <BadgeGroup alignment="center">
-                        <BadgeMessage>Tapk babuška!</BadgeMessage>
+                        <BadgeMessage>Tapk bábuška!</BadgeMessage>
                         <BadgeIcon icon="game-icons:meal" />
                     </BadgeGroup>
                 </MotionBTTContainer>

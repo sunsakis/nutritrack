@@ -10,7 +10,7 @@ export const Header = () => {
                 <div className="header-logo--container">
                     <a href="#">
                         <b className="logo mb-0 text-2xl text-red-700 font-serif">
-                            babuška
+                            bábuška
                         </b>
                     </a>
                 </div>

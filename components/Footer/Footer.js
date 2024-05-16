@@ -58,7 +58,7 @@ export const Footer = () => {
             <SectionContainer className="footer-credits relative z-10">
                 <div className="wrap wrap-px py-6">
                     <p className="my-0">
-                        © {year} babuška. Naminis maistas į namus.
+                        © {year} bábuška. Naminis maistas į namus.
                     </p>
                 </div>
             </SectionContainer>
