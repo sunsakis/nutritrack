@@ -8,8 +8,8 @@ export default function ContactUs() {
   const [number, setNumber] = useState('');
   const [address, setAddress] = useState('');
   const [dishes, setDishes] = useState('');
-  const [foods, setProducts] = useState('');
-  const [snacks, setSnacks] = useState('');
+  const [price, setPrice] = useState('');
+  const [extra, setExtra] = useState('');
 
   //   Setting button text on form submission
   const [buttonText, setButtonText] = useState("Dalintis");
@@ -20,7 +20,7 @@ export default function ContactUs() {
     const response = await fetch('/api', {
         method: 'POST',
         body: JSON.stringify({
-            name, email, number, address, dishes, foods, snacks
+            name, email, number, address, dishes, price, extra
     }),
         headers: {
             'Content-Type': 'application/json',
@@ -55,10 +55,10 @@ export default function ContactUs() {
       <textarea name="dishes" onChange={(e) => setDishes(e.target.value)} class="bg-transparent border-b py-2 pl-4 focus:outline-none focus:rounded-md focus:ring-1 ring-red-700 font-light text-gray-500" required></textarea>
 
       <label for="price" class="text-gray-500 font-light mt-4">Kiek kainuotų toks krepšelis?</label>
-      <textarea name="price" onChange={ (e) => setProducts(e.target.value)} class="bg-transparent border-b py-2 pl-4 focus:outline-none focus:rounded-md focus:ring-1 ring-red-700 font-light text-gray-500" required></textarea>
+      <textarea name="price" onChange={ (e) => setPrice(e.target.value)} class="bg-transparent border-b py-2 pl-4 focus:outline-none focus:rounded-md focus:ring-1 ring-red-700 font-light text-gray-500" required></textarea>
       
       <label for="extra" class="text-gray-500 font-light mt-4">Ką dar reikėtų žinoti apie jus?</label>
-      <textarea name="extra" onChange={ (e) => setSnacks(e.target.value)} class="bg-transparent border-b py-2 pl-4 focus:outline-none focus:rounded-md focus:ring-1 ring-red-700 font-light text-gray-500"></textarea>
+      <textarea name="extra" onChange={ (e) => setExtra(e.target.value)} class="bg-transparent border-b py-2 pl-4 focus:outline-none focus:rounded-md focus:ring-1 ring-red-700 font-light text-gray-500"></textarea>
       
       <div class="flex flex-row items-center justify-start">
         <button type="submit" class="px-10 mt-8 py-2 bg-red-700 text-gray-50 font-light rounded-md text-lg flex flex-row items-center">
