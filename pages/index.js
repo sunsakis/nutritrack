@@ -26,6 +26,9 @@ export default function Home() {
                         transition={{ delay: 0.2, duration: 0.5 }}
                     >
                         <SectionContainer id="features" className="features">
+                            <BadgeGroup alignment="center">
+                                <BadgeMessage>Istorija</BadgeMessage>
+                            </BadgeGroup>
                             <PageTitle
                                 className="text-center mx-auto"
                                 type="default"
@@ -50,20 +53,20 @@ export default function Home() {
                     >
                         <SectionContainer className="feature-tabs">
                             <BadgeGroup alignment="center">
-                                <BadgeMessage>Prisijunk prie bábuškų</BadgeMessage>
+                                <span id="form">
+                                    <BadgeMessage>Prisijunk prie bábuškų</BadgeMessage>
+                                </span>
                                 <BadgeIcon icon="twemoji:waving-hand" />
                             </BadgeGroup>
                             <PageTitle
                                 className="text-center mx-auto"
                                 type="default"
-                                id="form"
                             >
                                 Pralobk iš savo firminių patiekalų
                             </PageTitle>
                             <Content className="text-center" alignment="center">
                                 <p>
                                     Kviečiame užsiregistruoti visus, norinčius būti maisto gamintojais.
-                                    Algoritmas taikys pirmenybę tiems, kurių didelė pasiūla ir geri reitingai.
                                 </p>
                             </Content>
                             <ContactForm />

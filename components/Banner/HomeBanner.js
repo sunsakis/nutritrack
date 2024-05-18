@@ -14,7 +14,7 @@ export const HomeBanner = () => {
                 {/* Appear First */}
                 <MotionBTTContainer transition={{ delay: 0.2, duration: 0.5 }}>
                     <BadgeGroup alignment="center">
-                        <BadgeMessage>Tapk bábuška!</BadgeMessage>
+                        <BadgeMessage>Išalkai?</BadgeMessage>
                         <BadgeIcon icon="game-icons:meal" />
                     </BadgeGroup>
                 </MotionBTTContainer>
@@ -32,14 +32,22 @@ export const HomeBanner = () => {
                         </p>
                     </Content>
                     <div className="mt-6 mb-16 text-center">
+                        <ButtonGroup alignment="center">
+                            <button
+                                onClick={() => alert('Užsisakyk SMS +37060884233 arba el. paštu zenona@babuska.lt')}
+                                className="transition duration-500 ease-in-out bg-pink-500 hover:bg-pink-300 text-white font-bold py-2 px-6 rounded-lg w-full md:w-auto"
+                            >
+                                    Privalgyk
+                            </button>
                             <a
                                 role="button"
-                                href="#form"
                                 className="btn btn--secondary"
+                                href="#form"
                             >
                                 Prisijunk
                                 <Icon icon="material-symbols:arrow-forward-rounded" />
                             </a>
+                        </ButtonGroup>
                     </div>
                 </MotionBTTContainer>
                 {/* Appear Fourth */}

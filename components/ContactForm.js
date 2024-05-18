@@ -13,7 +13,6 @@ export default function ContactUs() {
 
   //   Setting button text on form submission
   const [buttonText, setButtonText] = useState("Dalintis");
-  const [disability, setDisability] = useState();
 
   const submitData = async (event) => {
     event.preventDefault()
@@ -35,7 +34,6 @@ export default function ContactUs() {
     <
         form class="rounded-lg shadow-xl flex flex-col px-8 py-8 mt-10 p-5"
         onSubmit={submitData}
-        id="form"
     >
       <p class="text-2xl font-bold">Nori pardavinėti maistą iš savo namų?</p>
 
