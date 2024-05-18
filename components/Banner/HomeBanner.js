@@ -28,16 +28,16 @@ export const HomeBanner = () => {
                 <MotionBTTContainer transition={{ delay: 0.6, duration: 0.5 }}>
                     <Content className="text-center" alignment="center">
                         <p>
-                            Gamink savo mylimiausius patiekalus, o mes juos išvežiosime.{" "}
+                            Prikimšk savo šaldytuvą maistu tarsi būtumei ką tik grįžęs iš babos.{" "}
                         </p>
                     </Content>
                     <div className="mt-6 mb-16 text-center">
                         <ButtonGroup alignment="center">
                             <button
-                                onClick={() => alert('Užsisakyk SMS +37060884233 arba el. paštu zenona@babuska.lt')}
-                                className="transition duration-500 ease-in-out bg-pink-600 hover:bg-pink-400 text-white font-bold py-2 px-6 rounded-lg w-full md:w-auto"
+                                onClick={() => alert('Rašyk SMS +37060884233 arba el. laišką zenona@babuska.lt')}
+                                className="transition duration-500 ease-in-out bg-pink-500 hover:bg-pink-400 text-white font-bold py-2 px-6 rounded-lg w-full md:w-auto"
                             >
-                                    Privalgyk
+                                    Užsisakyk
                             </button>
                             <a
                                 role="button"

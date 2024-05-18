@@ -66,7 +66,7 @@ export default function Home() {
                             </PageTitle>
                             <Content className="text-center" alignment="center">
                                 <p>
-                                    Kviečiame užsiregistruoti visus, norinčius būti maisto gamintojais.
+                                    Kviečiame užsiregistruoti visus, norinčius būti maisto gamintojais. Kol jūs gaminsite, mes išvežiosime.
                                 </p>
                             </Content>
                             <ContactForm />
