@@ -35,7 +35,7 @@ export const HomeBanner = () => {
                         <ButtonGroup alignment="center">
                             <button
                                 onClick={() => alert('Užsisakyk SMS +37060884233 arba el. paštu zenona@babuska.lt')}
-                                className="transition duration-500 ease-in-out bg-pink-500 hover:bg-pink-300 text-white font-bold py-2 px-6 rounded-lg w-full md:w-auto"
+                                className="transition duration-500 ease-in-out bg-pink-600 hover:bg-pink-400 text-white font-bold py-2 px-6 rounded-lg w-full md:w-auto"
                             >
                                     Privalgyk
                             </button>
