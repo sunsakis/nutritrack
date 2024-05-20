@@ -9,8 +9,8 @@ export const Header = () => {
             <SectionContainer className="header--container wrap wrap-px">
                 <div className="header-logo--container">
                     <a href="#">
-                        <b className="logo mb-0 text-2xl text-red-700 font-serif">
-                            bábuška
+                        <b className="logo mb-0 text-2xl text-pink-600 hover:text-pink-500 font-serif transition duration-500 ease-in-out">
+                            bobulė
                         </b>
                     </a>
                 </div>

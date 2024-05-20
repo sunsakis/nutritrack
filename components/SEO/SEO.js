@@ -9,7 +9,7 @@ const SEO = ({ title, description, keywords }) => {
     const metaKeywords = keywords ? keywords : process.env.siteKeywords;
     const siteURL = process.env.siteUrl;
     const twitterHandle = process.env.twitterHandle;
-    const imagePreview = `./mociutes-barsciai.png`;
+    const imagePreview = `./bobule-saltibarsciu-fone.png`;
 
     return (
         <Head>

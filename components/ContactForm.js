@@ -49,17 +49,17 @@ export default function ContactUs() {
       <label for="address" class="text-gray-500 font-light mt-4">Adresas<span class="text-red-700"></span></label>
       <input type="text" name="address" onChange={(e) => setAddress(e.target.value)} class="bg-transparent border-b py-2 pl-4 focus:outline-none focus:rounded-md focus:ring-1 ring-red-700 font-light text-gray-500" required/>
 
-      <label for="dishes" class="text-gray-500 font-light mt-4">Kokį krepšelį sudarytumėte, kad žmogus būtų pamaitintas visai savaitei?</label>
+      <label for="dishes" class="text-gray-500 font-light mt-4">Kokį maistą pagamintumėte, kad žmogus turėtų maisto 5 dienoms?</label>
       <textarea name="dishes" onChange={(e) => setDishes(e.target.value)} class="bg-transparent border-b py-2 pl-4 focus:outline-none focus:rounded-md focus:ring-1 ring-red-700 font-light text-gray-500" required></textarea>
 
-      <label for="price" class="text-gray-500 font-light mt-4">Kiek kainuotų toks krepšelis?</label>
+      <label for="price" class="text-gray-500 font-light mt-4">Kiek kainuotų toks jūsų maisto krepšelis?</label>
       <textarea name="price" onChange={ (e) => setPrice(e.target.value)} class="bg-transparent border-b py-2 pl-4 focus:outline-none focus:rounded-md focus:ring-1 ring-red-700 font-light text-gray-500" required></textarea>
       
       <label for="extra" class="text-gray-500 font-light mt-4">Ką dar reikėtų žinoti apie jus?</label>
       <textarea name="extra" onChange={ (e) => setExtra(e.target.value)} class="bg-transparent border-b py-2 pl-4 focus:outline-none focus:rounded-md focus:ring-1 ring-red-700 font-light text-gray-500"></textarea>
       
       <div class="flex flex-row items-center justify-start">
-        <button type="submit" class="px-10 mt-8 py-2 bg-red-700 text-gray-50 font-light rounded-md text-lg flex flex-row items-center">
+        <button type="submit" class="px-10 mt-8 py-2 bg-pink-600 hover:text-pink-200 font-serif transition duration-500 ease-in-out text-gray-50 font-light rounded-md text-lg flex flex-row items-center">
           {buttonText}
         </button>
       </div>

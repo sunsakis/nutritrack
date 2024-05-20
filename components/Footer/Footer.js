@@ -1,8 +1,4 @@
 import { SectionContainer } from "@components/Section";
-import Link from "next/link";
-import Image from "next/image";
-import { ButtonGroup } from "@components/Button";
-import { Icon } from "@iconify/react";
 
 const DATA = [
     {
@@ -58,7 +54,7 @@ export const Footer = () => {
             <SectionContainer className="footer-credits relative z-10">
                 <div className="wrap wrap-px py-6">
                     <p className="my-0">
-                        © {year} bábuška. Naminis maistas į namus.
+                        © {year} Lietuvos bobulių asociacija - naminis maistas į namus.
                     </p>
                 </div>
             </SectionContainer>
