@@ -39,9 +39,9 @@ export default function Home() {
                                 <p>
                                     Nuo seno žmonės pirkdavo namuose pagamintą maistą, nes 
                                     taip yra pigiau, skaniau ir sveikiau. Daugelyje pasaulio šalių ši tradicija niekada nenutrūko,
-                                    bet ne Lietuvoje, kurioje buvo prekiaujama maistu tik iš specialiai įrengtų virtuvių.
-                                    Pokyčiai maisto gamybos tvarkoje buvo džiugi žinia visiems, 
-                                    kurie mėgsta gaminti <i>savo</i> virtuvėje.
+                                    bet ne Lietuvoje, kurioje buvo leidžiama prekiauti tik maistu iš specialiai įrengtų virtuvių.
+                                    2019 metų gruodžio 14 dieną įsigalioję pokyčiai maisto gamybos tvarkoje buvo džiugi žinia visiems, 
+                                    kurie mėgsta suktis savo virtuvėje.
                                 </p>
                             </Content>
                             <ContentImage />

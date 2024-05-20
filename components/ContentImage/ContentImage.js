@@ -10,7 +10,7 @@ const ContentImageData = [
         id: uuid(),
         title: "Gamyba iš namų",
         content:
-            "Norint užsidirbti iš savo kulinarinių sugebėjimų nebereikia investuoti į specialiai įrengtą virtuvę, reiškia galėsite įgyvendinti daugelio svajonę - dirbti iš namų. VMVT reikalavimams nenusižengsite kiekvieną dieną parduodami iki 20 porcijų patiekalų, 10kg pusgaminių ir ne daugiau 100 vieno kąsnio užkandžių.",
+            "Norint užsidirbti iš savo kulinarinių sugebėjimų nebereikia investuoti į specialiai įrengtą virtuvę, reiškia galėsite įgyvendinti daugelio svajonę - dirbti iš namų. VMVT reikalavimams nenusižengsite per dieną parduodami iki 20 porcijų patiekalų, 10kg pusgaminių bei 100 vieno kąsnio užkandžių.",
         align: "right",
         image: "/naminiai-lietiniai-blynai-su-mesa.webp"
     },
@@ -18,7 +18,7 @@ const ContentImageData = [
         id: uuid(),
         title: "Kokybė paprastume",
         content:
-            `Naminį maistą mylim mes visi. Jei žinote gerą receptą ir norite su juo užsidirbti, jums tereikia nuotoliniu būdu išklausyti paskaitą apie higieną, gauti medicininę knygelę leidžiančią gaminti maistą ir prisijunkite prie mūsų. ↓`,
+            `Naminį maistą mylim mes visi. Jei žinote gerą receptą, mėgstate gaminti ir norite užsidirbti, susisiekite su mumis naudodami formą apačioje. Tada beliks nuotoliniu būdu išklausyti paskaitą apie higieną bei gauti medicininę knygelę leidžiančią gaminti maistą ir galėsite pradėti per mus pardavinėti savo maistą, kad ir kur Lietuvoje gyventumėte.`,
         align: "left",
         image: "/naminiai-rauginti-kopustai.webp"
     }
