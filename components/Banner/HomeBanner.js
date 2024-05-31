@@ -34,7 +34,7 @@ export const HomeBanner = () => {
                     <div className="mt-6 mb-16 text-center">
                         <ButtonGroup alignment="center">
                             <button
-                                onClick={() => alert('Rašyk SMS +37060884233 arba el. laišką zenona@bobule.lt')}
+                                onClick={() => alert('Rašyk SMS: +37060884233 arba siųsk el. laišką: zenona@bobule.lt')}
                                 className="font-serif transition duration-500 ease-in-out bg-pink-500 hover:bg-pink-400 text-white font-bold py-2 px-6 rounded-lg w-full md:w-auto"
                             >
                                     Užsisakyk

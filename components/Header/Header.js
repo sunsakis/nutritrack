@@ -9,7 +9,7 @@ export const Header = () => {
             <SectionContainer className="header--container wrap wrap-px">
                 <div className="header-logo--container">
                     <a href="#">
-                        <b className="logo mb-0 text-2xl text-pink-500 hover:text-pink-400 font-serif transition duration-500 ease-in-out">
+                        <b className="logo mb-0 text-2xl text-red-500 hover:text-red-400 font-serif transition duration-500 ease-in-out">
                             bobulė
                         </b>
                     </a>
