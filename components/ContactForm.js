@@ -49,13 +49,13 @@ export default function ContactUs() {
       <label for="address" class="text-gray-500 font-light mt-4">Adresas<span class="text-red-700"></span></label>
       <input type="text" name="address" onChange={(e) => setAddress(e.target.value)} class="bg-transparent border-b py-2 pl-4 focus:outline-none focus:rounded-md focus:ring-1 ring-red-700 font-light text-gray-500" required/>
 
-      <label for="dishes" class="text-gray-500 font-light mt-4">Kokį komplektą pagamintumėte, kad žmogui užtektų maisto 5 dienoms?</label>
+      <label for="dishes" class="text-gray-500 font-light mt-4">Kaip dažnai norėtum gaminti?</label>
       <textarea name="dishes" onChange={(e) => setDishes(e.target.value)} class="bg-transparent border-b py-2 pl-4 focus:outline-none focus:rounded-md focus:ring-1 ring-red-700 font-light text-gray-500" required></textarea>
 
-      <label for="price" class="text-gray-500 font-light mt-4">Kiek kainuotų toks maisto krepšelis?</label>
+      <label for="price" class="text-gray-500 font-light mt-4">Kokį maistą gamintum?</label>
       <textarea name="price" onChange={ (e) => setPrice(e.target.value)} class="bg-transparent border-b py-2 pl-4 focus:outline-none focus:rounded-md focus:ring-1 ring-red-700 font-light text-gray-500" required></textarea>
       
-      <label for="extra" class="text-gray-500 font-light mt-4">Ką dar reikėtų žinoti apie jus?</label>
+      <label for="extra" class="text-gray-500 font-light mt-4">Už kiek pardavinėtum savo maistą?</label>
       <textarea name="extra" onChange={ (e) => setExtra(e.target.value)} class="bg-transparent border-b py-2 pl-4 focus:outline-none focus:rounded-md focus:ring-1 ring-red-700 font-light text-gray-500"></textarea>
       
       <div class="flex flex-row items-center justify-start">

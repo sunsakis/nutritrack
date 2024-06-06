@@ -28,7 +28,7 @@ export const HomeBanner = () => {
                 <MotionBTTContainer transition={{ delay: 0.6, duration: 0.5 }}>
                     <Content className="text-center" alignment="center">
                         <p>
-                            Prikimšk savo šaldytuvą maistu tarsi būtumei ką tik grįžęs iš babos.{" "}
+                            Prikimšk savo pilvūzą maistu tarsi būtumei pas babą.{" "}
                         </p>
                     </Content>
                     <div className="mt-6 mb-16 text-center">
@@ -44,7 +44,7 @@ export const HomeBanner = () => {
                                 className="btn btn--secondary font-serif"
                                 href="#form"
                             >
-                                Prisijunk
+                                Gamink
                                 <Icon icon="material-symbols:arrow-forward-rounded" />
                             </a>
                         </ButtonGroup>
