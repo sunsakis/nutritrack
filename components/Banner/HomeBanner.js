@@ -28,7 +28,7 @@ export const HomeBanner = () => {
                 <MotionBTTContainer transition={{ delay: 0.6, duration: 0.5 }}>
                     <Content className="text-center" alignment="center">
                         <p>
-                            Prikimšk savo pilvūzą maistu tarsi būtumei pas babą.{" "}
+                            Prikimšk savo pilvūzą maistu tarsi būtum pas savo babą.{" "}
                         </p>
                     </Content>
                     <div className="mt-6 mb-16 text-center">
